@@ -1,7 +1,7 @@
 # Docker usage
 ```
-docker build -t py-kms .
-docker run -t -d -p 1688:1688 -i py-kms
+docker build -t kms .
+docker run -t -d -i kms
 ```
 
 # History
