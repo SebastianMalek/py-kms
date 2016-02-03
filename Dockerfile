@@ -4,6 +4,6 @@ ADD . /app
 
 WORKDIR /app
 
-CMD ["python", "/app/server.py"]
+CMD ["python", "/server.py"]
 
 EXPOSE 1688
