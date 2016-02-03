@@ -1,3 +1,9 @@
+# Docker usage
+```
+docker build -t py-kms .
+docker run -t -d -p 1688:1688 -i py-kms
+```
+
 # History
 py-kms is a port of node-kms by [markedsword](http://forums.mydigitallife.info/members/183074-markedsword), which is a port of either the C#, C++, or .NET implementations of KMSEmulator, of which the original version was written by [CODYQX4](http://forums.mydigitallife.info/members/89933-CODYQX4) and is derived from the reverse-engineered code of Microsoft's official KMS.
 
