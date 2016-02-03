@@ -1,7 +1,7 @@
 # Docker usage
 ```
 docker build -t kms .
-docker run -t -d -i kms
+docker run -t -i -d kms
 ```
 
 # History
