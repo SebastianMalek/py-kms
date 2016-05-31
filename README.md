@@ -1,7 +1,7 @@
 # Docker usage
 ```
 docker build -t kms .
-docker run -t -i -d -p 1688:1688 kms
+docker run -t -i -d --restart=always -p 1688:1688 kms
 ```
 
 # History
